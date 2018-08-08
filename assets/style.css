@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(images/hexellence.png);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+#about-me {
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 960px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+
+#topbox {
+    background-color: #4aaaa5;
+}
+
+#myname {
+    color: #ffffff;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #666666;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-width: 5px;
+    color: #cccccc;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+#header {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-width: 2px;
+    color: #777777;
+}
+
+#top-index {
+    color:#777777;
+}
+
+.content-push {
+    height: 50px;
+}
+
+#total-wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: #cccccc;
+    margin-bottom: 25px;
+}
+
+#submit-button {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+#port-images {
+    margin-bottom: 30px;
+    position: relative;
+    align-content: center;
+}
+
+.port-labels {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 15px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.profile-pic {
+    float: left;
+    position: relative;
+    padding: 1em;
+}
+
+.about-me {
+    margin-left: 20px; 
+    margin-right: 20px;
+    line-height: 1.5;
+}
