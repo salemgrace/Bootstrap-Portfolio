@@ -1,0 +1,130 @@
+/* Style for all Pages */
+/* Header */
+#total-wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+#header {
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc; 
+}
+
+#topbox {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;    
+}
+
+/* General Body */
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777777;
+    background-image: url("../images/hexellence.png");
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+#about-me {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 960px;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+#footer {
+    background-color: #666666;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 55px;
+    border-top: 5px solid #4aaaa5;
+    color: #cccccc;
+    font-size: 10px;
+    clear: both;
+}
+
+.content-push {
+    height: 55px;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: #cccccc;
+    margin-bottom: 25px;
+}
+
+
+/* Style for About Page */
+.profile-pic {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+
+/* Style for Contact Page */
+#submit-button {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+
+/* Style for Portfolio page */
+#port-images {
+    margin-bottom: 30px;
+    position: relative;
+    align-content: center;
+}
+
+.port-labels {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 15px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
